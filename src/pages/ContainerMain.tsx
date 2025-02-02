@@ -5,7 +5,7 @@ import EducationPage from '../components/Education'
 
 const ContainerMain = () => {
     return (
-        <div className='flex-1 box-border md:w-[calc(100% - 16rem)] md:pl-6'>
+        <div className='flex-1 box-border md:ml-64'>
             <CarouselImage />
             <AboutPage></AboutPage>
             <InterestPage></InterestPage>
